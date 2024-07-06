@@ -7,10 +7,11 @@ function Typing() {
       options={{
         strings: [
           "Full Stack Web Developer",
-          "Machine Learning Enthusiast",
+          "ML Practitioner",
+          "Data Science Enthusiast",
           "CS Undergrad",
           "Coder",
-          "Deep Learning Enthusiast",
+          "Continuous Learner"
         ],
         autoStart: true,
         loop: true,
