@@ -18,11 +18,11 @@ export default function Home() {
     <section className="home-section">
       <Container fluid id="home">
         <Particle />
-        <Container className="home-content">
+        <Container className="home-content" style={{ paddingTop: '100px' }}>
           <Row>
             <Col md={8} className="home-header">
               <h1
-                style={{ paddingBottom: 15, fontSize: "175px" }}
+                style={{ paddingBottom: '15px', fontSize: '2.5rem' }}
                 className="heading"
               >
                 Hi There!{" "}
@@ -31,72 +31,75 @@ export default function Home() {
                 </span>
               </h1>
 
-              <h1 className="heading-name">
+              <h1 className="heading-name" style={{ fontSize: '2.5rem' }}>
                 I'M
-                <strong className="main-name"> PRATYUSH KARGETI</strong>
+                <strong className="main-name" style={{ color: '##6c63ff' }}> PRATYUSH KARGETI</strong>
               </h1>
 
-              <div className="typing-homeclass">
+              <div className="typing-homeclass" style={{ marginTop: '20px', fontSize: '1.5rem' }}>
                 <Typing />
               </div>
-              <div className="sociallink-home">
-                <ul className="homeaboutsociallinks">
-
-                  <li className="socialicons">
-  <a
-    href="https://github.com/pratzie100"
-    target="_blank"
-    rel="noreferrer"
-    className="iconcolour homesocialicons"
-  >
-    <AiFillGithub />
-  </a>
-</li>
-<li className="socialicons">
-  <a
-    href="https://www.linkedin.com/in/pratyush-kargeti-576270285/"
-    target="_blank"
-    rel="noreferrer"
-    className="iconcolour homesocialicons"
-  >
-    <FaLinkedinIn />
-  </a>
-</li>
-<li className="socialicons">
-  <a
-    href="https://t.me/PratyushKargeti"
-    target="_blank"
-    rel="noreferrer"
-    className="iconcolour homesocialicons"
-  >
-    <FaTelegramPlane />
-  </a>
-</li>
-<li className="socialicons">
-  <a
-    href="https://twitter.com/pratyush13390"
-    target="_blank"
-    rel="noreferrer"
-    className="iconcolour homesocialicons"
-  >
-    <AiFillTwitterSquare />
-  </a>
-</li>
-<li className="socialicons">
-  <a
-    href="https://mail.google.com/mail/?view=cm&fs=1&to=pratyushkargeti1313@gmail.com"
-    target="_blank"
-    rel="noreferrer"
-    className="iconcolour homesocialicons"
-  >
-    <FaGoogle />
-  </a>
-</li>
-
+              <div className="sociallink-home" style={{ marginTop: '20px' }}>
+                <ul className="homeaboutsociallinks" style={{ listStyle: 'none', padding: 0, display: 'flex', justifyContent: 'center' }}>
+                  <li className="socialicons" style={{ margin: '0 10px' }}>
+                    <a
+                      href="https://github.com/pratzie100"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons"
+                      style={{ color: '#6c63ff', fontSize: '2rem' }}
+                    >
+                      <AiFillGithub />
+                    </a>
+                  </li>
+                  <li className="socialicons" style={{ margin: '0 10px' }}>
+                    <a
+                      href="https://www.linkedin.com/in/pratyush-kargeti-576270285/"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons"
+                      style={{ color: '#6c63ff', fontSize: '2rem' }}
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                  </li>
+                  <li className="socialicons" style={{ margin: '0 10px' }}>
+                    <a
+                      href="https://t.me/PratyushKargeti"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons"
+                      style={{ color: '#6c63ff', fontSize: '2rem' }}
+                    >
+                      <FaTelegramPlane />
+                    </a>
+                  </li>
+                  <li className="socialicons" style={{ margin: '0 10px' }}>
+                    <a
+                      href="https://twitter.com/pratyush13390"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons"
+                      style={{ color: '#6c63ff', fontSize: '2rem' }}
+                    >
+                      <AiFillTwitterSquare />
+                    </a>
+                  </li>
+                  <li className="socialicons" style={{ margin: '0 10px' }}>
+                    <a
+                      href="https://mail.google.com/mail/?view=cm&fs=1&to=pratyushkargeti1313@gmail.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="iconcolour homesocialicons"
+                      style={{ color: '#6c63ff', fontSize: '2rem' }}
+                    >
+                      <FaGoogle />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </Col>
-            <Col md={4} style={{ paddingBottom: 20 }}>
+            <Col md={4} style={{ paddingBottom: '20px', textAlign: 'center' }}>
               <div className="img-home-main">
                 <Tilt>
                   <Fade cascade>
@@ -104,6 +107,7 @@ export default function Home() {
                       src="./profile.png"
                       alt="home pic"
                       className="img-fluid"
+                      style={{ maxWidth: '100%', height: 'auto' }}
                     />
                   </Fade>
                 </Tilt>
