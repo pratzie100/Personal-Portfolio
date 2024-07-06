@@ -43,7 +43,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              PRATYUSH KARGETI
+             <i><strong>PRATYUSH KARGETI</strong></i>
             </h5>
           </div>
         </Navbar.Brand>
@@ -61,20 +61,16 @@ export default function MyNav() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> <i><strong>Home</strong></i>
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/projectspage"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/projectspage" onClick={() => updateExpanded(false)}>
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                <i><strong>Projects</strong></i>
               </Nav.Link>
             </Nav.Item>
 
@@ -84,7 +80,7 @@ export default function MyNav() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} /> <i><strong>Resume</strong></i>
               </Nav.Link>
             </Nav.Item>
 
@@ -94,7 +90,7 @@ export default function MyNav() {
                 to="/certificatepage"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Certifications
+                <ImBlog style={{ marginBottom: "2px" }} /> <i><strong>Certifications</strong></i>
               </Nav.Link>
             </Nav.Item>
           </Nav>
@@ -103,3 +99,4 @@ export default function MyNav() {
     </Navbar>
   );
 }
+
