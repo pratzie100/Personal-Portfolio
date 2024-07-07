@@ -24,7 +24,7 @@ const About = () => {
           <Col md={7}>
             <Fade duration={3000}>
               <p className="home-about-body">
-                I am <b className="purple">Pratyush Kargeti </b> 
+                I am <b className="purple">Pratyush Kargeti, </b> 
                 and I am persuing B.Tech in <b className="purple">Computer Science and Engineering </b> 
                 from <b className="purple">Graphic Era University, </b> 
                 Dehradun, India.
