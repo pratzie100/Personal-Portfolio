@@ -81,7 +81,7 @@ export default function ProjectPage() {
                                 >
                                   Applied machine learning, deep learning, and transfer learning on APTOS 2019 Blindness Detection Dataset. A
 CNN classifier based on the DenseNet121 network (trained for ImageNet) performed best with an accuracy of
-77.89 % for 5-class severity classification.
+79 % for 5-class severity classification.
                                 </p>
                               </h6>
                               <div
